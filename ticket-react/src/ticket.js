@@ -259,7 +259,7 @@ const abi = [
       "type": "function"
     }
   ];
-const address = "0x065a022968B5f1bEb814006C19164D42Aa4Fc008";
+const address = "0x96FD55c36610f93b899485212d28661093C801f6";
 const ticket = new web3.eth.Contract(abi, address);
 
 export default ticket;
