@@ -5,8 +5,8 @@ const Web3 = require('web3');
 const { abi, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    //Secret phrase
-    'notable child question panel acquire silly language elder pepper mammal model mixture',
+    //Secret phrase 
+    '',
     //Goerli endpoint
     'https://goerli.infura.io/v3/2ac8acc85c5846dab223331aec2c1bbf'
 );
